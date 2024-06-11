@@ -221,7 +221,7 @@ def approx_sinh():
     for i in range(_n):
         term = (_x ** (2 * i + 1)) / factorial_calculate(2 * i + 1)
         sinh += term
-    
+
     print("Sinh: " + str(sinh))
     return sinh
 
@@ -236,7 +236,7 @@ def approx_cosh():
     for i in range(_n):
         term = (_x ** (2 * i)) / factorial_calculate(2 * i)
         cosh += term
-    
+
     print("Cosh: " + str(cosh))
     return cosh
 
