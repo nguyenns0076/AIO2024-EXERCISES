@@ -18,7 +18,7 @@ print(count_characters('smiles'))
 
 
 # "Câu 3 = C"
-file_path = 'content\\P1_data.txt'
+file_path = 'Module01\\M01W02\\content\\P1_data.txt'
 result = count_text_in_file(file_path)
 assert result['who'] == 3
 print("Cau 3")
